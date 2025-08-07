@@ -1,6 +1,5 @@
 # ACCENTURE-EXCEL-DATA-PROJECT
 
-<img width="517" height="343" alt="image" src="https://github.com/user-attachments/assets/538858e9-83dd-479d-a665-ff42b087457f" />
 
 ## 📊 Project Overview: Content Popularity Analysis for Accenture
 
@@ -61,6 +60,7 @@ To identify the most popular categories:
 
 ### 🧠 Outcome
 The final result was a ranked list of the **top 5 content categories** based on user engagement and sentiment scores. This analysis provides the client with a clear view of which content types are driving the most positive reactions, helping guide future content strategy.
+<img width="517" height="343" alt="image" src="https://github.com/user-attachments/assets/73c5262a-f4ea-4008-9cc5-3a4259c95c64" />
 
 ---
 
