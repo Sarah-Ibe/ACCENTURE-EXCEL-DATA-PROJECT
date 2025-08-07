@@ -1,5 +1,6 @@
 # ACCENTURE-EXCEL-DATA-PROJECT
 
+<img width="517" height="343" alt="image" src="https://github.com/user-attachments/assets/538858e9-83dd-479d-a665-ff42b087457f" />
 
 ## 📊 Project Overview: Content Popularity Analysis for Accenture
 
@@ -15,6 +16,7 @@ The analysis was based on three interconnected datasets:
 - **Reaction Type**: Maps each reaction type to a sentiment and a numeric score.
 
 Popularity was defined by the **aggregate reaction score** per content category. To calculate this, I needed to merge the datasets and sum scores by category.
+<img width="753" height="478" alt="image" src="https://github.com/user-attachments/assets/bc5d63a1-dbc8-415a-b0bc-f4f2bc57ba99" />
 
 ---
 
@@ -32,7 +34,12 @@ To prepare the data for analysis:
 - I **converted the cleaned data into structured tables**.
 - Using **VLOOKUP**, I merged:
   - The **Reaction** table with the **Content** table via `Content ID` to retrieve category and content type.
+
+<img width="806" height="254" alt="image" src="https://github.com/user-attachments/assets/0d2a182e-3534-409e-87e9-cbe24118d84f" />
+
   - The **Reaction** table with the **Reaction Type** table via `Reaction Type` to retrieve sentiment and score.
+<img width="766" height="421" alt="image" src="https://github.com/user-attachments/assets/fa98504f-a6b9-4aa8-9955-a10657a911af" />
+
 
 This created a unified dataset where each reaction was linked to its content category and associated score.
 
@@ -45,6 +52,9 @@ To identify the most popular categories:
   ```excel
   =SUMIF('Cleaned data modelled table'!F:F, 'Popular Categories'!A2, 'Cleaned data modelled table'!H:H)
   ```
+
+<img width="614" height="546" alt="image" src="https://github.com/user-attachments/assets/b584426e-62be-488b-a2cd-39499292166a" />
+
 - I then **sorted the categories by total score in descending order** to identify the top 5.
 
 ---
