@@ -1,8 +1,5 @@
 # ACCENTURE-EXCEL-DATA-PROJECT
 
-Here’s a polished and professional **project overview** based on your work with the Accenture Excel task. This version is portfolio-ready and clearly communicates your analytical process, tools, and insights.
-
----
 
 ## 📊 Project Overview: Content Popularity Analysis for Accenture
 
